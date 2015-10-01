@@ -1146,7 +1146,7 @@ abstract class Model implements ArrayAccess, Arrayable, Jsonable, JsonSerializab
 	 *
 	 * This method protects developers from running forceDelete when trait is missing.
 	 *
-	 * @return void
+	 * @return bool|null
 	 */
 	public function forceDelete()
 	{
